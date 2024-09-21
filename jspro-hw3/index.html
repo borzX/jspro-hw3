@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная</title>
+</head>
+<body>
+  <style>
+    .reviewInput{
+      height: 50px;
+      width: 350px;
+      margin-bottom: 25px;
+      display: table-cell
+      /* float: left; */
+    }
+    .reviewHead{
+      display: flex;
+      flex-direction: column;
+    }
+    .reviewBtn{
+      height: 50px;
+      width: 200px;
+    }
+  </style>
+
+
+  <div class="reviewHead">
+    <input type="text" placeholder="Название товара" class="reviewInput" id="product">
+    <input type="comment" class="reviewInput" size="20" minlength="50" maxlength="500" placeholder="Отзыв" id="comment">
+    <button class="reviewBtn">Оставить отзыв</button>
+
+  </div>
+  <div>
+    <a href="commentPage.html">Все отзыв</a>
+    <!-- <button >Все отзывы</button> -->
+  </div>
+  <div class="reviewField" id="reviewField">
+
+  </div>
+  <!-- <script src="task1.js"></script> -->
+  <script src="script1.js"></script>
+  
+</body>
+</html>
